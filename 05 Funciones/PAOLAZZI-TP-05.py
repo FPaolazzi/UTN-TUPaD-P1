@@ -1,17 +1,17 @@
-# Ejercicio 1: 
+# Ejercicio 1: Crear una lista con los números del 1 al 100 que sean múltiplos de 4. Utilizar la función range.
 
 multiplos_de_4 = list(range(4, 101, 4))
 print(multiplos_de_4)
 
 
-# Ejercicio 2: 
+# Ejercicio 2: Crear una lista con cinco elementos (colocar los elementos que más te gusten) y mostrar el penúltimo.
 
 muebles = ['Mesa', 'Silla', 'Sillon', 'Cama', 'Escritorio']
 
 print(muebles[3])
 
 
-# Ejercicio 3: 
+# Ejercicio 3: Crear una lista vacía, agregar tres palabras con append e imprimir la lista resultante por pantalla.
 
 mi_lista = []
 
@@ -22,7 +22,7 @@ mi_lista.append("VS Code")
 print(mi_lista)
 
 
-# Ejercicio 4:
+# Ejercicio 4:Reemplazar el segundo y último valor de la lista “animales” con las palabras “loro” y “oso”, respectivamente.
 
 animales = ["perro", "gato", "conejo", "pez"]
 
@@ -33,7 +33,7 @@ animales[3] = "oso"
 print(animales)
 
 
-# Ejercicio 5:
+# Ejercicio 5: Analizar el siguiente programa y explicar con tus palabras qué es lo que realiza.
 
 numeros = [8, 5, 3, 22, 7]
 numeros.remove(max(numeros))
